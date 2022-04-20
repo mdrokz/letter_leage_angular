@@ -1,0 +1,18 @@
+@mixin card($color,$alpha) {
+    background-color: $color;
+    opacity: $alpha;
+    border-radius: 10;
+}
+
+.trayContainer{
+    display: grid;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    justify-content: center;
+}
+
+.lettertray{
+    width: 30%;
+    @include card(black,0.6);
+}
