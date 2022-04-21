@@ -1,15 +1,13 @@
-<div class="board" >
 
-    <div *ngFor="let tilesRow of board.grid">
+<div class="heading">
+    <h1>Letter League</h1>
+</div>
 
-        <div *ngFor="let column of tilesRow">
-            <div class="tiles">
-                <div class="tiles">
-                    <p></p>
-                </div>
-            </div>
-        </div>
-       
+<div class="board">
+  <div *ngFor="let tilesRow of board.grid">
+    <div *ngFor="let column of tilesRow">
+      <div class="tiles">
+      </div>
     </div>
- 
+  </div>
 </div>
