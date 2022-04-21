@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LetterTrayComponent implements OnInit {
 
+  alphabets:any= new Array(7).fill(0);
+
   constructor() { }
 
   ngOnInit(): void {

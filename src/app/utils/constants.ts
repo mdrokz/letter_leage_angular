@@ -11,10 +11,6 @@ declare global {
         shuffle: () => LetterBag
         generate: (length: number) => LetterBag
     }
-
-    // interface Math {
-    //     seedrandom: (seed: string, options?: SeedRandom) => () => number;
-    // }
 }
 
 const LETTERS: LetterBag = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "O", "M", "N", "P", "Q", "R", "S", "T", "U", "W", "W", "X", "Y", "Z"];
